@@ -562,7 +562,6 @@ def token():
     skipWhite();
     name = getName();
     if(name=='def'):
-        print('def');
         Function();
     elif(name=='#'):
         Comment();
