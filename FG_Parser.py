@@ -12,7 +12,7 @@ outputFile = 'out.fprg';
 inputFile = 'in.fgs';
 
 if(sys.argv[1]=='-o'):
-    inputFile = system.argv[2];
+    inputFile = sys.argv[2];
     outputFile = sys.argv[3];
     if(inputFile=='' or outputFile==''):
         Expected('Input and/or Output File Names');
