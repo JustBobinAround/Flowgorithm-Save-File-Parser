@@ -23,7 +23,7 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
  </body>
 <h1>Input Output Example</h1>
 <body>
-  <p>Input forLoopExample.fgs file:</p>
+  <p>Input FOR_LOOP_EXAMPLE.fgs file:</p>
 <pre>
     def void() Main(){
           String answer;
@@ -60,7 +60,7 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
 </pre>
 <p>Enter in your terminal: <br/><br/>
   &emsp;<code>python3 FG_Parser.py make forLoopExample.fgs</code><br/><br/>
-  Output forLoopExample.fprg file:
+  Output FOR_LOOP_EXAMPLE.fprg file:
 </p>
 <pre>
   &lt;?xml version="1.0"?&gt;
