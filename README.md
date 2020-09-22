@@ -17,7 +17,7 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
  <h1>Creating files of a different name</h1>
  <body>
   <p>Enter the following commands in your terminal for outputing a .fprg file of a different name from the .fgs file.<br/><br/>
-     &emps; <code>python3 FG_Parser.py -o YOURFGSFILE.fgs OUTPUTFILENAME.fprg</code><br/><br/>
+     &emsp; <code>python3 FG_Parser.py -o YOURFGSFILE.fgs OUTPUTFILENAME.fprg</code><br/><br/>
      As you can see, this is supposed to function like compilers like gcc.
   </p>
  </body>
