@@ -24,10 +24,9 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
 <h1>Input Output Example</h1>
 <body>
   <p>Input forLoopExample.fgs file:</p>
-<code>
-  
+<pre>
     def void() Main(){
-    String answer;
+          String answer;
 	  String customerName;
 	  real purchaseAmount;	
 
@@ -35,7 +34,7 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
 
 	  output("Do you wish to process a customers information? ");
 	  input(answer);
-      int i;
+          int i;
 	  #for Loop testing the Icv
     
 	  for(i;(100,10);1){
@@ -58,7 +57,8 @@ Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing t
       int ii;
       ii=x;
     }
-</code><p>Enter in your terminal: <br/><br/>
+</pre>
+<p>Enter in your terminal: <br/><br/>
   &emsp;<code>python3 FG_Parser.py make forLoopExample.fgs</code><br/><br/>
   Output forLoopExample.fprg file:
 </p>
