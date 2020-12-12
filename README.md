@@ -1,5 +1,5 @@
 # Flowgorithm-Save-File-Parser
-Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing the need for the GUI application
+Creates Flowgorithm files (.fprg) by parsing pseudo code files (.fgs) removing most initial need for the GUI application when first designing the program. This allows for a faster program design prior to Flowgorithm visual aids for refinement.
 
 
 <h1>Installation</h1>
