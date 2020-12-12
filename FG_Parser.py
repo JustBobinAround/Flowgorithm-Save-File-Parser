@@ -628,8 +628,10 @@ def End():
     global outputFile;
     depth = depth - 1;
     out('</flowgorithm>');
-    code = open(outputFile,"a").write(outputCode);
-
+    code = open(outputFile,"w")
+    code.write(outputCode);
+    code.close();
+    
 #+============================================================================+
 #| Starting Parser Starts Here:                                               |
 #+============================================================================+
